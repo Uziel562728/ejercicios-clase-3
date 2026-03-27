@@ -16,19 +16,24 @@ const persona = {
 persona.nombre = "uzi";
 console.log(persona);
 
-// function prueba() {
-//   if (true) {
-//     var a = 1;
-//     let b = 2;
-//     const c = 3;
 
-//     console.log(a);
-//     console.log(b);
-//     console.log(c);
-//   }
-// }
+function prueba() {
+  if (true) {
+    var a = 1;
+    let b = 2;
+    const c = 3;
 
-// prueba();
+    console.log(a);
+    console.log(b);
+    console.log(c);
+  }
+
+  console.log(a);
+  // console.log(b); // error
+  // console.log(c); // error
+}
+
+prueba();
 
 const frutas = ["manzana", "banana", "naranja", "uva", "pera"];
 frutas.push("fresa");
@@ -68,7 +73,7 @@ const persona1 = {
   ciudad: "capital"
 };
 persona1.hobby = "tocar guitarra";
-persona1.nombre = "uzi";
+persona1.edad = 21;
 console.log(persona1);
 
 let calculadora = {
